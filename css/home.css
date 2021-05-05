@@ -47,6 +47,8 @@ html{
 }
 
 body{
+    padding: 0;
+    margin: 0;
     font-family:var(--text-font);
     font-size: 15px;
     line-height: 25px;
@@ -145,7 +147,7 @@ body{
 
 .services__container{
     padding-top: 160px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     background-image: url(../images/site-footer-bg-circles/services__line.svg);
     background-repeat: no-repeat;
     background-size: 974px 30px;
@@ -203,4 +205,83 @@ body{
 
 .services__text{
     margin: 0; 
+}
+
+/* OFFER */
+
+.offer .offer__container{
+    padding: 0;
+    padding-bottom: 140px;
+    
+}
+
+.offer__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.offer__item{
+  width: 100%;
+  padding-top: 166px;
+  padding-bottom: 126px;
+}
+.offer__wrap{
+    width: 445px;
+}
+
+.offer__item:nth-child(1){
+    background-image: url(../images/tinified/easu-to-use-riding-telemetry.png);
+    background-repeat: no-repeat;
+    background-size: 954px 445px;
+    background-position: 800px 100px;
+    
+}
+.offer__item:nth-child(3){
+    background-image: url(../images/tinified/zero-hassle-payments.png);
+    background-repeat: no-repeat;
+    background-size: 954px 445px;
+    background-position: 800px 100px;
+}
+.offer__item:nth-child(2) .offer__wrap{
+    margin-left: auto;
+}
+
+.offer__item:nth-child(2){
+    background-image: url(../images/tinified/Coming-to-a-city-near-you.png);
+    background-repeat: no-repeat;
+    background-size: 954px 445px;
+    background-position: -360px 100px;
+}
+
+.offer__name{
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;    
+    width: 445px;
+    margin: 0;
+    margin-bottom: 24px;
+    color: var(--title-color);
+    width: 445px;
+}
+
+.offer__text{
+    margin: 0;
+    margin-bottom: 40px;
+    width: 445px;
+}
+
+.offer__link-btn{
+    font-family: var(--title-font);
+    text-decoration: none;
+    color: var(--site-bg-color);
+    padding: 14px 45px;
+    background-color: var(--btn-bg);
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
 }
