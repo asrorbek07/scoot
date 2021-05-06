@@ -262,20 +262,22 @@ body{
     content: "";
     width: 954px;
     height: 445px;
-    background-image: url(../images/tinified/easu-to-use-riding-telemetry.png);
+    background-image:url(../images/site-footer-bg-circles/yellow-arrow-to-left.svg),
+     url(../images/tinified/easu-to-use-riding-telemetry.png);
     background-repeat: no-repeat;
-    background-size: 954px 445px;
-    background-position: 180px center;
+    background-size:735px 150px, 954px 445px;
+    background-position: 95px 295px, 180px center;
 }
 .zero::after{
     position: relative;
     content: "";
     width: 954px;
     height: 445px;
-    background-image: url(../images/tinified/zero-hassle-payments.png);
+    background-image:url(../images/site-footer-bg-circles/yellow-arrow-to-left.svg),
+     url(../images/tinified/zero-hassle-payments.png);
     background-repeat: no-repeat;
-    background-size: 954px 445px;
-    background-position: 180px center;    
+    background-size:735px 150px, 954px 445px;
+    background-position:425px 90px, 180px center;    
 }
 
 .comming-to::before{
@@ -283,10 +285,11 @@ body{
     content: "";
     width: 954px;
     height: 445px;
-    background-image: url(../images/tinified/Coming-to-a-city-near-you.png);
+    background-image: url(../images/site-footer-bg-circles/yellow-arrow-to-right.svg),
+    url(../images/tinified/Coming-to-a-city-near-you.png);
     background-repeat: no-repeat;
-    background-size: 954px 445px;
-    background-position: -344px center; 
+    background-size:735px 150px,954px 445px;
+    background-position:-384px 0, -344px center; 
     
 }
 
