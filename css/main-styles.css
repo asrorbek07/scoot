@@ -64,9 +64,9 @@ body{
     color: var(--text-color);
 }
 .container{
-    max-width: 1440px;
-    padding-left: 165px;
-    padding-right: 165px;
+    max-width: 1350px;
+    padding-left: 120px;
+    padding-right: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -164,7 +164,7 @@ body{
     background-image: url(../images/site-footer-bg-circles/site-footer-bg-circles.svg);
     background-repeat: no-repeat;
     background-size: 1153px 347px;
-    background-position: 450px 150px;
+    background-position: 405px 150px;
 }
 
 .site-footer__top-about{

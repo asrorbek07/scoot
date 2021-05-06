@@ -56,9 +56,9 @@ body{
     color: var(--text-color);
 }
 .container{
-    max-width: 1440px;
-    padding-left: 165px;
-    padding-right: 165px;
+    max-width: 1350px;
+    padding-left: 120px;
+    padding-right: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -66,6 +66,10 @@ body{
 /* SITE MAIN */
 
 /* HERO */
+
+.hero{
+    background-color:rgba(47, 59, 89, 0.75);
+}
 
 .hero__container{
     padding-top: 153px;
@@ -75,8 +79,8 @@ body{
     linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)),  
     url(../images/tinified/site-hero-bg-scoot.png);
     background-repeat: no-repeat;
-    background-size:234px 64px, 100%, 2610px 1740px ;
-    background-position:1254px 400px, 0 0, -140px -1000px;
+    background-size:234px 64px,100%, 2610px 1740px ;
+    background-position:1210px 400px, 0 0, -300px -1000px;
 }
 
 .hero__title{
@@ -147,7 +151,7 @@ body{
 
 .services__container{
     padding-top: 160px;
-    padding-bottom: 100px;
+    padding-bottom: 160px;
     background-image: url(../images/site-footer-bg-circles/services__line.svg);
     background-repeat: no-repeat;
     background-size: 974px 30px;
@@ -160,12 +164,15 @@ body{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
+    justify-content: center;
 
 }
 
+.services__item:not(:last-child){
+    margin-right: 29px;
+}
+
 .services__item{
-    margin-right: 30px;
     width: 350px;
 }
 
@@ -211,7 +218,8 @@ body{
 
 .offer .offer__container{
     padding: 0;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 200px;
     
 }
 
@@ -224,22 +232,65 @@ body{
 }
 
 .offer__item{
-  width: 100%;
-  padding-top: 166px;
-  padding-bottom: 126px;
-}
-.offer__wrap{
-    width: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+    margin: 0;
 }
 
-.offer__item:nth-child(1){
+.offer__item:nth-child(2n+1){
+    padding-left: 120px;
+}
+
+.offer__item:nth-child(2n){
+    padding-right: 120px;
+}
+
+.offer__item:not(:last-child){
+    margin-bottom: 160px;
+}
+
+.offer__wrap{
+    width: 445px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.easu-to::after{
+    position: relative;
+    content: "";
+    width: 954px;
+    height: 445px;
     background-image: url(../images/tinified/easu-to-use-riding-telemetry.png);
     background-repeat: no-repeat;
     background-size: 954px 445px;
-    background-position: 800px 100px;
+    background-position: 180px center;
+}
+.zero::after{
+    position: relative;
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image: url(../images/tinified/zero-hassle-payments.png);
+    background-repeat: no-repeat;
+    background-size: 954px 445px;
+    background-position: 180px center;    
+}
+
+.comming-to::before{
+    position: relative;
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image: url(../images/tinified/Coming-to-a-city-near-you.png);
+    background-repeat: no-repeat;
+    background-size: 954px 445px;
+    background-position: -344px center; 
     
 }
-.offer__item:nth-child(3){
+
+/* .offer__item:nth-child(3){
     background-image: url(../images/tinified/zero-hassle-payments.png);
     background-repeat: no-repeat;
     background-size: 954px 445px;
@@ -254,7 +305,7 @@ body{
     background-repeat: no-repeat;
     background-size: 954px 445px;
     background-position: -360px 100px;
-}
+} */ 
 
 .offer__name{
     font-family: var(--title-font);
