@@ -380,23 +380,6 @@ body{
     
 }
 
-/* .offer__item:nth-child(3){
-    background-image: url(../images/tinified/zero-hassle-payments.png);
-    background-repeat: no-repeat;
-    background-size: 954px 445px;
-    background-position: 800px 100px;
-}
-.offer__item:nth-child(2) .offer__wrap{
-    margin-left: auto;
-}
-
-.offer__item:nth-child(2){
-    background-image: url(../images/tinified/Coming-to-a-city-near-you.png);
-    background-repeat: no-repeat;
-    background-size: 954px 445px;
-    background-position: -360px 100px;
-} */ 
-
 .offer__name{
     font-family: var(--title-font);
     font-weight: bold;
@@ -425,6 +408,16 @@ body{
     font-weight: bold;
     font-size: 15px;
     line-height: 25px;
+    border: 2px solid var(--btn-bg);
+}
+
+.offer__link-btn:hover{
+    color: var(--btn-bg);
+    background-color: var(--site-bg-color);
+}
+
+.offer__link-btn:active{
+    opacity: 0.7;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
@@ -776,6 +769,63 @@ body{
     font-weight: bold;
     font-size: 15px;
     line-height: 25px;
+}
+
+/* SPECIFIC */
+
+.specific__container{
+    padding-bottom: 136px;
+}
+
+.specific__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.specific__item{
+    display: flex;
+    align-items: center;
+    padding: 32px 64px 35px 40px;
+    background-color: var(--snow-color);
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.specific__name{
+    font-family: var(--title-font);
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px; 
+    color: var(--footer-bg-top); 
+    margin-bottom: 8px;  
+}
+
+.specific__text{
+    margin: 0;
+    color: var(--footer-bg-top);
+}
+
+.apply-btn{
+    width: 180px;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--site-bg-color);
+    background-color: var(--btn-bg);
+    border: 2px solid var(--btn-bg);
+}
+
+.apply-btn:hover{
+    color: var(--btn-bg);
+    background-color: var(--site-bg-color);
+}
+
+.apply-btn:active{
+    opacity: 0.7;
 }
 
 
