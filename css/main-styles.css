@@ -420,11 +420,66 @@ body{
     opacity: 0.7;
 }
 
+/* LOCATION SECTION */
+
+.location__container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.location-img{
+    display: block;
+    margin-bottom: 120px;
+}
+
+.location-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.location-title{
+    font-family: var(--title-font);
+    color: var(--footer-bg-top);
+    width: 450px;
+    margin: 0;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;  
+    padding: 0;  
+}
+
+.location-text{
+    margin: 0;
+    width: 445px;
+    margin-right: 105px;
+}
+
+.location-link{
+    width: 180px;
+    font-family: var(--title-font);
+    text-decoration: none;
+    color: var(--site-bg-color);
+    padding: 14px;
+    background-color: var(--btn-bg);
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid var(--btn-bg);
+}
+
+.location-link:hover{
+    color: var(--btn-bg);
+    background-color: var(--site-bg-color);
+}
+
+.location-link:active{
+    opacity: 0.7;
+}
+/* ABOUT */
 /* ////////////////////////////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
-
-/* ABOUT MAIN */
 
 /* ABOUT HERO */
 
@@ -442,12 +497,20 @@ body{
     background-repeat: no-repeat;
     background-size:234px 64px,100%, 1440px 200px ;
     background-position:1200px center, 0 0, center center;
+    display: flex;
+    align-items: center;
 }
 
-.about-hero__title{
-    margin: 0;
-    padding: 0;
+.location-link-logo{
+    display: block;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.location-img-logo{
+    display: block;
 }
 
 /* ABOUT OFFER */
@@ -701,10 +764,16 @@ body{
     background-position:1200px center, 0 0, center center;
 }
 
-.careers-hero__title{
-    margin: 0;
-    padding: 0;
+.careers-link-logo{
+    display: block;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.careers-img-logo{
+    display: block;
 }
 
 /* CAREERS OFFER */
@@ -850,10 +919,16 @@ body{
     background-position:1200px center, 0 0, center center;
 }
 
-.location-hero__title{
-    margin: 0;
-    padding: 0;
+.location-link-logo{
+    display: block;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.location-img-logo{
+    display: block;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
