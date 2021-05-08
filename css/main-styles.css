@@ -127,7 +127,7 @@ body{
 }
 
 .sitenav__link:hover{
-    color: var(--title-color);
+    color: var(--btn-bg);
 }
 .sitenav__link:active{
     opacity: 0.7;
@@ -142,7 +142,7 @@ body{
 }
 
 .site-header__btn:hover{
-    background-color: var(--extra-color);
+    background-color:transparent;
     color: var(--btn-bg);
 }
 .site-header__btn:active{
@@ -227,7 +227,7 @@ body{
 }
 
 .hero__btn:hover{
-    background-color: var(--extra-color);
+    background-color: transparent;
     color: var(--btn-bg);
 }
 .hero__btn:active{
@@ -413,7 +413,7 @@ body{
 
 .offer__link-btn:hover{
     color: var(--btn-bg);
-    background-color: var(--site-bg-color);
+    background-color: transparent;
 }
 
 .offer__link-btn:active{
@@ -470,7 +470,7 @@ body{
 
 .location-link:hover{
     color: var(--btn-bg);
-    background-color: var(--site-bg-color);
+    background-color: transparent;
 }
 
 .location-link:active{
@@ -501,7 +501,7 @@ body{
     align-items: center;
 }
 
-.location-link-logo{
+.about-link-logo{
     display: block;
     margin-right: auto;
     margin-top: auto;
@@ -509,7 +509,7 @@ body{
     
 }
 
-.location-img-logo{
+.about-img-logo{
     display: block;
 }
 
@@ -742,6 +742,11 @@ body{
     top: 42px;
     right: 40px;
 }
+
+.work-item:active{
+    background-color: #FFF4DF;
+}
+
 .work-item:active::after{
     transition:ease 0.3s;
      transform: rotate(180deg);
@@ -869,6 +874,12 @@ body{
     font-weight: bold;
     font-size: 15px;
     line-height: 25px;
+    border: 3px solid var(--btn-bg);
+}
+
+.careers-offer__link-btn:hover{
+    background-color: transparent;
+    color: var(--btn-bg);
 }
 
 /* SPECIFIC */
@@ -921,7 +932,7 @@ body{
 
 .apply-btn:hover{
     color: var(--btn-bg);
-    background-color: var(--site-bg-color);
+    background-color: transparent;
 }
 
 .apply-btn:active{
@@ -1056,7 +1067,7 @@ body{
 }
 
 .site-footer-nav__link:hover{
-    color: var(--title-color);
+    color: var(--btn-bg);
 }
 .site-footer-nav__link:active{
     opacity: 0.7;
