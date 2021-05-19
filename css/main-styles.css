@@ -1092,3 +1092,227 @@ body{
 .footer-social__img{
     display: block;
 }
+
+@media only screen and (max-width:768px){
+    .container{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    /* SITE FOOTER */
+    .site-footer__top{
+        background-color: var(--footer-bg-top);
+    }
+    
+    .site-footer__top-container{
+        padding-top: 62px;
+        padding-bottom: 62px;
+        display: block;
+        background-image: url(../images/site-footer-bg-circles/site-footer-bg-circles.svg);
+        background-repeat: no-repeat;
+        background-size: 1153px 347px;
+        background-position: center 150px;
+        text-align: center;
+    }
+    
+    .site-footer__top-about{
+        width: 457px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    
+    .site-footer__top-list{     
+        justify-content: center;
+    }
+    
+   
+/* MAIN PAGE */
+/* HERO */
+
+    .hero__container{
+        padding-top: 138px;
+        padding-bottom: 217px;
+        color: var(--site-bg-color);
+        background-image:url(../images/site-footer-bg-circles/site-hero-right-line.svg),
+        url(../images/site-footer-bg-circles/site-hero-bg-circles.svg),
+        linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)),  
+        url(../images/tinified/site-hero-bg-scoot.png);
+        background-repeat: no-repeat;
+        background-size:447px 138px,234px 64px,100%,2610px 1740px;
+        background-position:-127px 473px,565px 543px, 0 0, -746px -944px;
+        text-align: center;
+    }
+
+    .hero__title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+
+    .hero__text{
+        position:static;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:32px;
+        width: 573px;
+    }
+
+    .hero__text::before{
+        display: none;
+    }
+    
+    .hero__text::after{
+      display: none;
+    }
+
+    .hero__btn{
+        text-decoration: none;
+        color: var(--site-bg-color);
+        padding: 12px 37px;
+        background-color: var(--btn-bg);
+        border: 2px solid var(--btn-bg);
+        margin: 0;
+    }
+
+/* SERVICES */
+
+.services__container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: none;
+}
+
+.services__list{
+    margin-bottom: -40px;
+}
+
+.services__item:not(:last-child){
+    margin-right: 0;
+}
+.services__item{
+    margin-bottom: 40px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__wrap{
+    margin-right: 79px;
+}
+
+.services__wrapper{
+    width: 400px;
+}
+
+/*MAIN OFFER */
+
+    /* OFFER */
+
+.offer .offer__container{
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 140px;
+    
+}
+
+.offer__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: -120px;
+    padding: 0;
+}
+
+.offer__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:0;
+    padding-bottom: 120px;
+}
+
+.offer__item:nth-child(2n+1){
+    padding-left:0 ;
+}
+
+.offer__item:nth-child(2n){
+    padding-right: 0;
+}
+
+.offer__item:not(:last-child){
+    margin-bottom: 0;
+}
+
+.offer__wrap{
+    width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top:60px;
+    padding-bottom: 0;
+}
+
+.easu-to::before{
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image:url(../images/site-footer-bg-circles/yellow-arrow-to-left.svg),
+     url(../images/tinified/easu-to-use-riding-telemetry.png);
+    background-repeat: no-repeat;
+    background-size:735px 150px, 954px 445px;
+    background-position: 120px 295px, 260px center;
+}
+
+.zero::before{
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image:url(../images/site-footer-bg-circles/yellow-arrow-to-left.svg),
+     url(../images/tinified/zero-hassle-payments.png);
+    background-repeat: no-repeat;
+    background-size:735px 150px, 954px 445px;
+    background-position:475px 90px, 260px center;    
+}
+
+.easu-to::after{
+   display: none;
+}
+.zero::after{
+    display: none;    
+}
+
+.comming-to::before{
+   
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image: url(../images/site-footer-bg-circles/yellow-arrow-to-right.svg),
+    url(../images/tinified/Coming-to-a-city-near-you.png);
+    background-repeat: no-repeat;
+    background-size:735px 150px,954px 445px;
+    background-position:-300px 0, -260px center; 
+    
+}
+
+.offer__name{
+    width: 457px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer__text{
+    width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer__link-btn{
+    display: inline-block;
+}
+
+
+
+}
