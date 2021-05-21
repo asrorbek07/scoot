@@ -476,9 +476,9 @@ body{
 .location-link:active{
     opacity: 0.7;
 }
-/* ABOUT */
-/* ////////////////////////////////////////////////////////////////////////////////// */
 
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ABOUT */
 /* ////////////////////////////////////////////////////////////////////////////////// */
 
 /* ABOUT HERO */
@@ -1095,8 +1095,10 @@ body{
 
 @media only screen and (max-width:768px){
     .container{
-        padding-left: 35px;
-        padding-right: 35px;
+        max-width: 768px;
+        padding-left: 34px;
+        padding-right: 34px;
+        overflow-x: hidden;
     }
 
     /* SITE FOOTER */
@@ -1313,6 +1315,130 @@ body{
     display: inline-block;
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ABOUT */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ABOUT OFFER */
 
+.about-offer .about-offer__container{
+    padding: 0;
+    padding-top: 144px;
+}                       
+
+.about-offer__item{
+    flex-direction: column;
+}
+
+.about-offer__item:nth-child(2n+1){
+    padding-left: 0;
+}
+
+.about-offer__item:nth-child(2n){
+    padding-right: 0;
+}
+
+.about-offer__wrap{
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 0;
+}
+
+.mobility::before{
+    position: relative;
+    content: "";
+    width: 954px;
+    height: 445px;
+    background-image:url(../images/site-footer-bg-circles/yellow-arrow-to-left2.svg),
+     url(../images/tinified/mobility-for.png);
+    background-repeat: no-repeat;
+    background-size:735px 150px, 610px 445px;
+    background-position:154px 268px, 250px center;    
+}
+
+.mobility::after{
+   display: none;   
+}
+
+.better::before{
+    background-position:-280px 0, 100px center; 
+    
+}
+
+.about-offer__name{
+    width: 457px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-offer__text{
+    width: 573px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* VALUES */
+
+
+.values__title{
+    margin-bottom: 96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.values__list{
+    flex-direction: column;
+}
+
+.values__item{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.values__item:not(:last-child){
+    margin-bottom: 87px;
+}
+.values__img{
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.values__item::after{
+    left: calc(50%);
+    transform: translateX(-50%);
+    top: 192px;
+} 
+
+.values__text{
+    width: 457px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FAQ  */
+
+.faqs-section__container{
+    padding-bottom: 120px;
+}
+
+.how-it-works{
+    flex-direction: column;
+}
+.how-it-works:not(:last-child){
+    margin-bottom: 64px;
+}
+.how-it-works__title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+.work-list{
+    width: 100%;
+}
+
+.safe-driving{
+    flex-direction: column;
+}
 
 }
