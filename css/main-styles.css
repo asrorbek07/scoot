@@ -1429,6 +1429,7 @@ body{
     margin-bottom: 64px;
 }
 .how-it-works__title{
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 32px;
